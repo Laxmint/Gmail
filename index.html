@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gmail Clone</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      height: 100vh;
+    }
+    .sidebar {
+      width: 300px;
+      background-color: #F1F3F4;
+      padding: 20px;
+    }
+    .sidebar h2 {
+      color: #4285F4;
+    }
+    .sidebar .menu-item {
+      margin: 10px 0;
+      padding: 10px;
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .header {
+      background-color: #4285F4;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    .email-list {
+      padding: 20px;
+    }
+    .email-item {
+      padding: 15px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    .email-item h4 {
+      margin: 0 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Gmail Clone</h2>
+    <div class="menu-item">Inbox</div>
+    <div class="menu-item">Sent</div>
+    <div class="menu-item">Drafts</div>
+    <div class="menu-item">Spam</div>
+  </div>
+  <div class="content">
+    <div class="header">
+      <h2>Inbox</h2>
+    </div>
+    <div class="email-list">
+      <div class="email-item">
+        <h4>Subject: Welcome to Gmail Clone</h4>
+        <p>From: user@example.com</p>
+      </div>
+      <div class="email-item">
+        <h4>Subject: Upcoming Meeting</h4>
+        <p>From: team@example.com</p>
+      </div>
+      <div class="email-item">
+        <h4>Subject: Your Order Details</h4>
+        <p>From: shop@example.com</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
